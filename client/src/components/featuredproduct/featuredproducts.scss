@@ -1,0 +1,38 @@
+.featuredproducts {
+  margin: 50px 70px;
+ 
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    button {
+      display: flex;
+      border: none;
+      border-radius: 15px;
+      background-color: gray;
+      padding: 5px;
+      color: blue($color: #3f3f3f);
+      margin-top: 30px;
+      margin-right: 5px;
+
+      cursor: pointer;
+    }
+
+    h1 {
+      flex: 2;
+    }
+    p {
+      flex: 3;
+      color: grey;
+      font-size: 20px;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
