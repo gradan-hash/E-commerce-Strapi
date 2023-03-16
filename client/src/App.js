@@ -10,6 +10,9 @@ import Home from './pages/home/Home';
 import Product from './pages/product/Product';
 import Products from './pages/products/Products';
 import "./app.scss"
+import Register from './pages/Login/Register';
+import Login from './pages/Login/Login';
+
 
 const Layout = ()=>{
   return(
@@ -38,6 +41,15 @@ const router = createBrowserRouter([
         path:"/product/:id",
         element:<Product/>
       },
+      {
+      path:"/accounts/register",
+      element:<Register/>
+
+    },
+    {
+      path:"/account/login" ,
+      element:<Login/>
+    }
     ]
   }
 ]);

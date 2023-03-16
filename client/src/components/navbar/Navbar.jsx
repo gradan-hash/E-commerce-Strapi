@@ -9,6 +9,7 @@ import "./navbar.scss";
 import Cart from "../Cart/Cart";
 import { useSelector } from "react-redux";
 import useFetch from "../../hooks/useFetch";
+import LoginIcon from "@mui/icons-material/Login";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -97,8 +98,8 @@ function Navbar() {
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
-              Stores
+            <Link className="link" to="/account/login">
+              Login
             </Link>
           </div>
           <div className="icons">
